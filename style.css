@@ -100,3 +100,61 @@ h1 {
   border-width: 8px 0 8px 16px;
   border-color: transparent transparent transparent var(--secondary-color);
 }
+
+@media (max-width: 900px) {
+  #timeline ul li div {
+    width: 250px;
+  }
+
+  #timeline ul li:nth-child(even) div {
+    left: -284px;
+  }
+}
+
+@media (max-width: 650px) {
+  #timeline ul li div {
+    width: 200px;
+  }
+
+  #timeline ul li:nth-child(even) div {
+    left: -234px;
+  }
+}
+
+@media (max-width: 650px) {
+  #timeline ul li div {
+    width: 200px;
+  }
+
+  #timeline ul li:nth-child(even) div {
+    left: -234px;
+  }
+}
+
+@media (max-width: 525px) {
+  #timeline ul li div {
+    width: 150px;
+  }
+
+  #timeline ul li:nth-child(even) div {
+    left: -184px;
+  }
+}
+
+@media (max-width: 400px) {
+  #timeline ul li div {
+    width: 100px;
+  }
+
+  #timeline ul li:nth-child(even) div {
+    left: -134px;
+  }
+
+  #timeline ul li div h3 {
+    font-size: 0.8rem;
+  }
+
+  #timeline ul li div p {
+    font-size: 0.7rem;
+  }
+}
